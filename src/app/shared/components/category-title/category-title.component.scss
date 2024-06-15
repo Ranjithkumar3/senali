@@ -1,0 +1,19 @@
+.category-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 30px;
+        font-family: 'Cinzel Variable', serif;
+        font-weight: bold;
+        color: #EC6426;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: 'Fauna One', serif;
+        margin-bottom: 0px;
+    }
+}

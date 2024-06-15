@@ -1,0 +1,27 @@
+.sub-category-tiles {
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+    margin: 10px 0;
+
+    .tile {
+        box-shadow: 0px 10px 16px rgb(0 0 0 / 0.25);
+
+        img {
+            height: 274px;
+            width: 390px;
+        }
+
+        p {
+            background-color: #F3F3F3;
+            color: #EC6426;
+            text-align: center;
+            font-size: 22px;
+            font-family: 'Cinzel Variable', serif;
+            padding: 8px 0;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.footer-container {
+    background-image: url(/assets/senali-footer-banner.jpg);
+    width: 100%;
+    height: 526px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .footer-content {
+        margin: 0 180px;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+
+        .middle, .right {
+            margin-top: 30px;
+            ul li {
+                list-style: none;
+                margin-bottom: 10px;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+
+            .footer-head {
+                font-family: 'Cinzel Variable', serif;
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 15px !important;
+
+                &::after {
+                    content: '';
+                    width: 45%;
+                    height: 4px;
+                    display: block;
+                    background: #EC6426;
+                    transition: 300ms;
+                }
+            }
+
+            .middle-logo {
+                height: 18px;
+                width: 18px;
+                margin-right: 5px;
+            }
+        }
+
+        .left {
+            margin-top: 60px;
+
+            .social-media-icons {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+
+                a {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
